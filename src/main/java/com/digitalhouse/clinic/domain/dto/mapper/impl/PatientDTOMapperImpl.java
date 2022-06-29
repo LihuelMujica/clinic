@@ -18,7 +18,7 @@ public class PatientDTOMapperImpl implements PatientDTOMapper {
 
     public PatientDTOMapperImpl(ObjectMapper mapper) {
         this.mapper = new ObjectMapper();
-    //    mapper.registerModule(new JavaTimeModule());
+        mapper.registerModule(new JavaTimeModule());
     }
 
 
